@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "faireval"
+version = "0.0.1"
+description = "ai fairness exploration research"
+authors = ["mukulnamagiri <mukulnamagiri12@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "src"}]
+keywords = ["python", "dash", "flask", "streamlit", "fairness"]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+streamlit = "*"
+numpy = "*"
+gunicorn = "^20.1.0"
+dash = "2.15.0"
+dash-bootstrap-components = "1.2.1"
+flask = "2.0.3"
+flask-compress = "1.15"
+geopandas = "0.9.0"
+folium = "0.13.0"
+plotly = "5.18.0"
+datasets = "4.8.4"
+# Note: dash-core, html, renderer, and table are included in dash 2.x 
+# and usually don't need to be listed separately anymore.
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^6.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

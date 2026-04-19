@@ -1,0 +1,18 @@
+### dependency
+streamlit
+numpy
+gunicorn
+dash
+dash-bootstrap-components
+dash-core-components
+dash-html-components
+dash-renderer
+dash-table
+flask
+flask-compress
+geopandas
+folium
+plotly
+datasets
+
+### local packages -
